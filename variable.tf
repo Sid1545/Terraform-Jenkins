@@ -1,11 +1,11 @@
 variable "aws_region" {
   description = "The AWS region to create things in."
-  default     = "eu-west-3"
+  default     = "eu-east-1"
 }
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     = "dockertest"
+  default     = "ani-key"
 }
 
 variable "instance_type" {
